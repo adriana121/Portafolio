@@ -2,47 +2,7 @@ body{
     background: url(./images/fondo.png) no-repeat center center /cover;
     background-color:  rgba(255, 184, 184, 0.8) ;
 }
-#root{
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-h1{
-    position: absolute;
-    float: left;
-    top: 300px;
-    font-family: 'Yeseva One', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 55px;
-    color: #040404;
-    -webkit-text-stroke: 2px  rgba(255, 184, 184, 0.8);
-}
-h2{
-    position: absolute;
-    float: left;
-    top: 350px;
-    font-family: 'Yeseva One', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 55px;
-    color: #040404;
-    -webkit-text-stroke: 2px  rgba(255, 184, 184, 0.8);
-}
-#root {
-    position: relative;
-    height:  100vh;
-    z-index: 1;
-    text-align: center;
-    font-size: 50px;
-    line-height: 100vh;
-  }
-  
+/* DIV ROOT IMAGEN CON BLUR*/
   #root:before {
     position: absolute;
     top: 0;
@@ -57,7 +17,58 @@ h2{
     z-index: -1;
   }
 
-  .sombra_movil{
+/* NAVV Y BOTONES*/
+  .buttons{
+    position: absolute;
+    display: flex;
+   flex-wrap: wrap;
+   justify-items: center;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+    height: 10px;
+    top: 20px;
+    align-items: center;
+    left: 30%;
+  }
+.button1{
+  color: white;
+  background-color: pink;
+  border-radius: 10px;
+  margin: 20px;
+  width: 150px;
+  height: 30px;
+}
+.button1:hover{
+  box-shadow: 2px 2px 5px rgb(151, 233, 221);
+}
+/* DIV DE NOMBRE*/
+ 
+h1{
+  position: absolute;
+  left: 35%;
+  top: 300px;
+  font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 55px;
+  color: #040404;
+  -webkit-text-stroke: 2px  rgba(255, 184, 184, 0.8);
+}
+h2{
+  position: absolute;
+  left: 35%;
+  top: 350px;
+  font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 55px;
+  color: #040404;
+  -webkit-text-stroke: 2px  rgba(255, 184, 184, 0.8);
+}
+.sombra_movil{
 	-webkit-transform: translateX(0);
 }
 
@@ -99,84 +110,7 @@ h2{
 		-webkit-transform: translateY(3px);
     }
 }
-
-.button1{
-    position: absolute;
-    top: 32px;
-    left: 390px;
-    border:none;
-    background:pink;
-    padding:12px 35px;
-    border-radius:20px;
-    color:white;
-    font-weight:bold;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    cursor:pointer;
-    transition: all 0.5s;
-  }
-  
-  .button1:hover{
-    opacity:.55;
-  }
-
-  .button2{
-    position: absolute;
-    top: 32px;
-    left: 550px;
-    border:none;
-    background:pink;
-    padding:12px 35px;
-    border-radius:20px;
-    color:white;
-    font-weight:bold;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    cursor:pointer;
-    transition: all 0.5s;
-  }
-  
-  .button2:hover{
-    opacity:.55;
-  }
  
-  .button3{
-    position: absolute;
-    top: 32px;
-    left: 750px;
-    border:none;
-    background:pink;
-    padding:12px 35px;
-    border-radius:20px;
-    color:white;
-    font-weight:bold;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    cursor:pointer;
-    transition: all 0.5s;
-  }
-  
-  .button3:hover{
-    opacity:.55;
-  }
-  .button4{
-    position: absolute;
-    top: 32px;
-    left: 920px;
-    border:none;
-    background:pink;
-    padding:12px 35px;
-    border-radius:20px;
-    color:white;
-    font-weight:bold;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    cursor:pointer;
-    transition: all 0.5s;
-  }
-  
-
-  }
   h1{
     animation-duration: 5s;
     animation-name: slidein;
@@ -226,180 +160,31 @@ h2{
     animation-name: slidein;
   }
 
-h3{
-    position: absolute;
-    top: 2;
-    font-family: 'Yeseva One', cursive;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 55px;
-    color: #040404;
-    -webkit-text-stroke: 2px  rgba(255, 184, 184, 0.8);
-}
-h3{
-    animation-duration: 5s;
-    animation-name: slidein;
-  }
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-  75% {
-    font-size: 300%;
-    margin-left: 25%;
-    width: 150%;
-  }
-  h3{
-    animation-duration: 5s;
-    animation-name: slidein;
-  }
-
-
-  /* tarjetas */
-  .card1{
-  position: absolute;
-  display: flex;
-  align-items: center;
-    background-color: #ffe9c5;
-    top: 200px;
-    left: 20px;
-    margin:5px;
-    box-shadow:15px 2px 10px #b4f2e1;
-    text-align:center;
-    border-radius:10px;
-    padding:10px;
-    width:280px;
-    height: 150px;
-    transition:all .3s;
-  }
-  .card1:hover{
-    box-shadow:10px 5px 10px #b4f2e1;
-    transform:scale(1.1)
-  }
-  p{
-      display: flex;
-      font-size: 25px;
-  }
-  a {
-    text-decoration: none;
-  }
-  
-  .-btn {
-      position: absolute;
+  #container{
+    position: relative;
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 100px;
     justify-content: center;
-    align-items: center;
-    width: 116px;
-    height: 20px;
-    top: 150px;
-    left: 4;
-    text-align: center;
-    border-radius: 12px;
   }
   
-  .-btn:hover {
-    opacity: .8;
-  }
-  
-  .-bg {
-    background: #fa9191;
-  }
-  
-  .-txt {
-    font-size: 10px;
-    color: #fff;
-  }
-  
-  .-xs {
-    font-size: 12px;
-  }
-  .imgTrivia{
-      position: absolute;
-      display: flex;
-      top: 40px;
-      width: 240px;
-      height: 90px;
-  }
-  .triv{
-      position: absolute;
-      display: flex;
-      top: -450px;
-  }
+.card{
+  margin:15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow:0px 2px 10px grey;
+  text-align:center;
+  border-radius:10px;
+  padding:10px;
+  width:250px;
+  height: 250px;
+  transition:all .3s;
 
-  .card2{
-    position: absolute;
-    display: flex;
-    align-items: center;
-      background-color: #ffe9c5;
-      top: 200px;
-      left: 350px;
-      margin:5px;
-      box-shadow:15px 2px 10px #b4f2e1;
-      text-align:center;
-      border-radius:10px;
-      padding:10px;
-      width:280px;
-      height: 150px;
-      transition:all .3s;
-    }
-    .card2:hover{
-      box-shadow:10px 5px 10px #b4f2e1;
-      transform:scale(1.1)
-    }
-    p{
-        display: flex;
-        font-size: 25px;
-    }
-    a {
-      text-decoration: none;
-    }
-    
-    .-bttn {
-        position: absolute;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 116px;
-      height: 20px;
-      top: 150px;
-      left: 4;
-      text-align: center;
-      border-radius: 12px;
-    }
-    
-    .-bttn:hover {
-      opacity: .8;
-    }
-    
-    .-big {
-      background: #fa9191;
-    }
-    
-    .-txt1 {
-      font-size: 10px;
-      color: #fff;
-    }
-    
-    .-xs {
-      font-size: 12px;
-    }
-    .imgCipher{
-        position: absolute;
-        display: flex;
-        top: 40px;
-        width: 240px;
-        height: 90px;
-    }
-    .cifrado{
-        position: absolute;
-        display: flex;
-        top: -450px;
-    }
+}
+.card:hover{
+  box-shadow:10px 15px 10px rgb(120, 241, 239);
+  transform:scale(1.1)
+}
+  img{
+    width: 190px;
+  }

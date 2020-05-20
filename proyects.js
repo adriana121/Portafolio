@@ -53,8 +53,8 @@ pro.map(c=>{
     <img src=${c.img} />
     <p class='title'>${c.tile}</p>
     <form action=${c.demo}>
-    <input class="demo" type="submit" value="DEMO" />
-</form>
+       <input class="demo" type="submit" value="DEMO"/>
+    </form>
     `;
     container.appendChild(p)
 })

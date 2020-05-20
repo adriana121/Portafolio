@@ -11,7 +11,7 @@ let root = document.querySelector('#root');
     <button id="button3" class="button1">Acerca de mí</button>
     </nav>
     <div class="information">
-    <p>Soy paola<p>
+    <h5 class="information1">Soy paola<h5>
     <div/>
    `;
    root.innerHTML= templeteMe;

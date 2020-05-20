@@ -16,7 +16,10 @@ body{
     filter: blur(4px);
     z-index: -1;
   }
-
+#root{
+  display: flex;
+  flex-wrap: wrap;
+}
 /* NAVV Y BOTONES*/
   .buttons{
     position: absolute;
@@ -206,4 +209,11 @@ h2{
   color: white;
   border-radius: 10px;
   width: 100px;
+}
+
+.information{
+  background-color: thistle;
+  position: absolute;
+  text-align: center;
+  left: 540px;
 }

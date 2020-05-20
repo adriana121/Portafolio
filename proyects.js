@@ -36,7 +36,7 @@ export const templeteProyects = () =>{
         "img": "./images/pakimanes.jpg"
     },{
         "tile":"Code Woman",
-        "demo":"https://adriana121.github.io/Trivia-Mexicana/",
+        "demo":"https://adriana121.github.io/CDMX009-Social-Network/",
         "img": "./images/codewoman.jpg"
     }
 ]};

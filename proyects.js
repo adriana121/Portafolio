@@ -36,7 +36,7 @@ export const templeteProyects = () =>{
         "img": "./images/pakimanes.jpg"
     },{
         "tile":"Code Woman",
-        "demo":"https://adriana121.github.io/CDMX009-Social-Network/",
+        "demo":"https://code-woman-37553.web.app/",
         "img": "./images/codewoman.jpg"
     }
 ]};
@@ -53,7 +53,7 @@ pro.map(c=>{
     <img src=${c.img} />
     <p class='title'>${c.tile}</p>
     <form action=${c.demo}>
-    <input type="submit" value="DEMO" />
+    <input class="demo" type="submit" value="DEMO" />
 </form>
     `;
     container.appendChild(p)

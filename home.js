@@ -7,7 +7,7 @@ let templeteH = `
 <nav class="buttons">
     <button id="button1" class="button1">Inicio</button>
     <button id="button2" class="button1">Proyectos</button>
-    <button id="button3" class="button1">Contacto</button>
+    <button id="button3" class="button1">Acerca de mí</button>
 
 </nav>
 
@@ -18,5 +18,8 @@ let templeteH = `
 root.innerHTML =templeteH;
 let btnProyect = document.querySelector('#button2');
 btnProyect.addEventListener('click', templeteProyects);
+
+let btn3 = document.querySelector('#button3');
+btn3.addEventListener('click', viewMe)
 
 }

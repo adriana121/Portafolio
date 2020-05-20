@@ -1,4 +1,5 @@
 import { homeTemplete } from './home.js'
+import { viewMe } from './acerca.js'
 
 let root = document.querySelector('#root');
 
@@ -17,26 +18,30 @@ export const templeteProyects = () =>{
       btn1.addEventListener('click', homeTemplete)
       let btni = document.querySelector('#button3');
       btni.addEventListener('click', function(){
-          console.log('ggg');
-      })
+        viewMe()
+      });
+
+
     let listProyect= { "Proyectos": [{
         "tile":"Trivia",
         "demo":"https://adriana121.github.io/Trivia-Mexicana/",
         "img": "./images/trivia.png"
     }, {
         "tile":"Cifrado César",
-        "demo":"https://adriana121.github.io/Trivia-Mexicana/",
-        "img": "./images/trivia.png"
+        "demo":" https://adriana121.github.io/Cifrado/",
+        "img": "./images/cifrado.png"
     },{
         "tile":"Pakimanes",
-        "demo":"https://adriana121.github.io/Trivia-Mexicana/",
-        "img": "./images/trivia.png"
+        "demo":"https://adriana121.github.io/CDMX009-Data-Lovers/",
+        "img": "./images/pakimanes.jpg"
     },{
         "tile":"Code Woman",
         "demo":"https://adriana121.github.io/Trivia-Mexicana/",
-        "img": "./images/trivia.png"
+        "img": "./images/codewoman.jpg"
     }
 ]};
+
+
 let container = document.querySelector('#container');
 
 let pro = listProyect.Proyectos;

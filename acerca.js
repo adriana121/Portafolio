@@ -13,7 +13,7 @@ let root = document.querySelector('#root');
   <div class="description">
       <img class="imgProfile" src="./images/profile.jpeg" />
       <p class="information">Adriana Aguilar Frontend Developer</p>
-      <p class="info2">Mujer perseverante, que nunca se rinde a pesar de las advercidades y que siempre busca una solución a cualquier problema, me gusta trabajar en equipo siempre pensado en las necesidades del proyecto y/o objetivo que se tenga con el equipo </p>
+      <p class="info2">Mujer perseverante, que nunca se rinde a pesar de las adversidades y que siempre busca una solución a cualquier problema, me gusta trabajar en equipo siempre pensado en las necesidades del proyecto y/o objetivo que se tenga con el equipo.</p>
 </div>
    `;
    root.innerHTML= templeteMe;

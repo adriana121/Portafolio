@@ -55,9 +55,9 @@ h1{
   font-family: 'Yeseva One', cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 55px;
-  color: #040404;
+  color: black;
   -webkit-text-stroke: 2px  rgba(255, 184, 184, 0.8);
 }
 h2{
@@ -67,7 +67,7 @@ h2{
   font-family: 'Yeseva One', cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 70px;
+  font-size: 60px;
   line-height: 55px;
   color: black;
   -webkit-text-stroke: 2px  rgba(255, 184, 184, 0.8);

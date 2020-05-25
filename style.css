@@ -19,6 +19,7 @@ body{
 #root{
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
 }
 /* NAVV Y BOTONES*/
   .buttons{
@@ -164,11 +165,12 @@ h2{
   }
 
   #container{
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    top: 100px;
+    top:100px;
+    left: 10%;
     justify-content: center;
   }
   
@@ -186,7 +188,6 @@ h2{
 }
 .card:hover{
   box-shadow:10px 15px 10px rgb(120, 241, 239);
-  transform:scale(1.1)
 }
   img{
     width: 170px;
@@ -211,9 +212,35 @@ h2{
   width: 100px;
 }
 
-.information{
-  background-color: thistle;
+.imgProfile{
+  position: fixed;
+  top: 100px;
+  left: 44%;
+  border-radius: 20px;
+}
+.description{
   position: absolute;
-  text-align: center;
-  left: 540px;
+  display: flex;
+  background-color:#b4f2e1;
+  top: 360px;
+  left: 34%;
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  border: 2px solid #131213;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.description:hover{
+  background-color: pink;
+  box-shadow:10px 15px 10px rgb(120, 241, 209);
+}
+.information{
+  position: absolute;
+ top: 3px;
+ left: 95px;
+}
+.info2{
+  position: absolute;
+  top: 30px;
 }

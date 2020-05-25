@@ -10,9 +10,11 @@ let root = document.querySelector('#root');
     <button id="button2" class="button1">Proyectos</button>
     <button id="button3" class="button1">Acerca de mí</button>
     </nav>
-    <div class="information">
-    <h5 class="information1">Soy paola<h5>
-    <div/>
+  <div class="description">
+      <img class="imgProfile" src="./images/profile.jpeg" />
+      <p class="information">Adriana Aguilar Frontend Developer</p>
+      <p class="info2">Mujer perseverante, que nunca se rinde a pesar de las advercidades y que siempre busca una solución a cualquier problema, me gusta trabajar en equipo siempre pensado en las necesidades del proyecto y/o objetivo que se tenga con el equipo </p>
+</div>
    `;
    root.innerHTML= templeteMe;
      

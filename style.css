@@ -55,7 +55,7 @@ h1{
   font-family: 'Yeseva One', cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 70px;
   line-height: 55px;
   color: #040404;
   -webkit-text-stroke: 2px  rgba(255, 184, 184, 0.8);
@@ -67,9 +67,9 @@ h2{
   font-family: 'Yeseva One', cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 70px;
   line-height: 55px;
-  color: #040404;
+  color: black;
   -webkit-text-stroke: 2px  rgba(255, 184, 184, 0.8);
 }
 .sombra_movil{
@@ -167,6 +167,7 @@ h2{
   #container{
     position: absolute;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     flex-wrap: wrap;
     top:100px;
@@ -194,8 +195,6 @@ h2{
   }
   .information{
     position: absolute;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -221,7 +220,8 @@ h2{
 .description{
   position: absolute;
   display: flex;
-  background-color:#b4f2e1;
+  background-color: white;
+  color: gray;
   top: 360px;
   left: 34%;
   width: 450px;
@@ -231,10 +231,6 @@ h2{
   box-sizing: border-box;
   border-radius: 20px;
 }
-.description:hover{
-  background-color: pink;
-  box-shadow:10px 15px 10px rgb(120, 241, 209);
-}
 .information{
   position: absolute;
  top: 3px;
@@ -242,5 +238,7 @@ h2{
 }
 .info2{
   position: absolute;
-  top: 30px;
+  top: 70px;
+  width: 380px;
+  left: 45px;
 }

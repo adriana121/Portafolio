@@ -21,6 +21,22 @@ body{
   flex-wrap: wrap;
   align-content: center;
 }
+#container{
+  position: absolute;
+  top: 150px;
+  left: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-content: center;
+align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
 /* NAVV Y BOTONES*/
   .buttons{
     position: absolute;
@@ -31,9 +47,10 @@ body{
    align-items: center;
    align-content: center;
     height: 10px;
-    top: 20px;
+    top: 50px;
     align-items: center;
     left: 30%;
+    
   }
 .button1{
   color: white;
@@ -164,15 +181,20 @@ h2{
     animation-name: slidein;
   }
 
-  #container{
+  .description{
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    flex-wrap: wrap;
-    top:100px;
-    left: 10%;
-    justify-content: center;
+    background-color: white;
+    color: gray;
+    top: 360px;
+    left: 34%;
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    border: 2px solid #131213;
+    box-sizing: border-box;
+    border-radius: 20px;
   }
   
 .card{
@@ -187,9 +209,7 @@ h2{
   transition:all .3s;
 
 }
-.card:hover{
-  box-shadow:10px 15px 10px rgb(120, 241, 239);
-}
+
   img{
     width: 170px;
   }
@@ -203,8 +223,6 @@ h2{
 }
 
 .demo{
-  position: absolute;
-  top: 240px;
   background-color: #b4f2e1;
   color: white;
   border-radius: 10px;
@@ -212,24 +230,11 @@ h2{
 }
 
 .imgProfile{
-  position: fixed;
-  top: 100px;
-  left: 44%;
-  border-radius: 20px;
-}
-.description{
   position: absolute;
-  display: flex;
-  background-color: white;
-  color: gray;
-  top: 360px;
-  left: 34%;
-  width: 450px;
-  height: 250px;
+  top: 100px;
+  left: 40.3%;
   border-radius: 20px;
   border: 2px solid #131213;
-  box-sizing: border-box;
-  border-radius: 20px;
 }
 .information{
   position: absolute;
@@ -241,4 +246,57 @@ h2{
   top: 70px;
   width: 380px;
   left: 45px;
+}
+.contac{
+  position: absolute;
+  border-radius: 10px;
+  top: 300px;
+  left: 40%;
+  width: 100px;
+  height: 30px;
+  border: 2px solid pink;
+}
+.contac:hover{
+  background-color: pink;
+  color: white;
+}
+
+.imgIcon{
+  position: absolute;
+  top: 300px;
+  width: 50px;
+  height: 50px;
+}
+.gmail{
+  position: absolute;
+  top: 300px;
+  left: 60px;
+  color: #131213;
+}
+.img-tel{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top:295px ;
+  left: 300px;
+}
+.tel{
+  position: absolute;
+  top: 300px;
+  left: 350px;
+  color: #131213;
+}
+.git{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 300px;
+  left: 450px;
+}
+.link{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 300px;
+  left: 520px;
 }

@@ -21,6 +21,7 @@ let root = document.querySelector('#root');
       <img class="img-tel" src="./images/telefono.png"/><p class="tel">5614388812</p>
       <a href="https://github.com/adriana121"><img class="git" src="./images/icon.png" /></a>
       <a href="https://www.linkedin.com/in/adriana-paola-6bb4891a9/"><img class="link" src="./images/linkedin.png" /></a>
+      <p></p>
       </div>
    </div>
    `;
